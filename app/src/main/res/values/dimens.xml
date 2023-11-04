@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="no_margin">0dp</dimen>
+    <dimen name="margin_tiny">8dp</dimen>
+    <dimen name="margin_default">16dp</dimen>
+    <dimen name="margin_middle">24dp</dimen>
+    <dimen name="margin_large">36dp</dimen>
+
+
+    <dimen name="text_size_tiny">14sp</dimen>
+    <dimen name="text_size_default">16sp</dimen>
+    <dimen name="text_size_big">24sp</dimen>
+
+    <dimen name="mini_poster_width">100dp</dimen>
+    <dimen name="mini_poster_height">150dp</dimen>
+    <dimen name="movie_poster_height">450dp</dimen>
+    <dimen name="movie_poster_width">300dp</dimen>
+
+</resources>

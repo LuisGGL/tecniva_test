@@ -1,0 +1,23 @@
+/build
+# Carpeta de salida generada por el sistema de compilación
+/app/build/
+
+# Archivos generados por Gradle
+.gradle/
+
+# Archivos generados por Android Studio
+/.idea/
+/.gradle/
+/local.properties
+
+# Archivos de configuración
+/build/
+
+# Archivos de generación
+/captures/
+
+# Archivos de proguard
+proguard-rules.pro
+
+# Archivos generados por herramientas de análisis de código
+lint/
