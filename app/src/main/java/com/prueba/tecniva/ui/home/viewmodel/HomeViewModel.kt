@@ -34,7 +34,7 @@ class HomeViewModel @Inject constructor(
     val showLoadingDialog: LiveData<Boolean> = _showLoadingDialog
 
     fun getMovies() {
-        if (_movies.value?.peekContent()?.results.isNullOrEmpty()) {
+        if (_movies.value?.peekContent()?.results.isNullOrEmpty() || movieName.value.isNullOrEmpty()) {
             showLoading()
             loadingBlock {
                 getMoviesUseCase.execute(page).onResult(
